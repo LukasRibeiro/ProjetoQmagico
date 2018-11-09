@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.titulo {
+    width: 100%;
+    height: 50px;
+    float: left;
+    z-index:9999;
+    position: fixed;
+    background-color: white;
+  }
+
+  .texto{
+      width: 100%;
+      height: auto;
+      float: left;
+      margin-top: 55px;
+  }
+
+  .texto p{
+      height: auto;
+      margin: 0 auto;
+      padding: 10px; 
+      font-size: 15px;
+      text-align: justify;
+  }
+
+  .botao{
+    position: fixed;
+    right: 30px;
+    padding: 15px;
+
+  }
+
+
+
+
+
+      
+
+}
+
