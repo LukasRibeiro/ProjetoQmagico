@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+  margin-right: 5%;
+  margin-bottom: 5%;
+
+}
+
+/* borda principal */
+.borda {
+  width: 100%;
+  height: 40px;
+  background-color: white;
+  z-index: 100;
+  position: fixed;
+  border-style: outset;
+  }
+
+  /*corpo do texto */
+  .texto{
+    width: 100%;
+    height: auto;
+    float: right;
+    margin-top: 10%;   
+  }
+
+/* paragrafos do texto */
+  .texto p{
+    height: 100%;
+    padding: 10px; 
+    font-size: 15px;
+    text-align: justify;
+  }
+
+/*Imagens svg da parte de cima */
+  .icones_acima{
+    float: right;
+    margin: 20px;
+    margin-top: 60px;
+  }
+
+  .engrenagem, .lapis{
+    border-style: groove;
+    width: 20px;
+  }
+
+  /*imagens svg da parte de baixo */
+  .icones_baixo{
+    float: right;
+    margin: 20px;
+    z-index: 100;
+  }
+
+  .coracao, .balao, .lapis_linha{
+    border-style: groove;
+    width: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
