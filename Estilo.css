@@ -28,19 +28,22 @@
   position: fixed;
 }
 
+
 /*corpo do texto */
 .texto{
+  position: relative;
   width: 70%;
   height: auto;
   float: left;
   margin-top: 10%;
   padding-left: 15%;
   font-family: Arial, Helvetica, sans-serif;
-  text-align: left;
+  background-color:lightgray;
 }
 
 /* paragrafos do texto */
 .texto p{
+  position: relative;
   height: 50%;
   padding: 10px;
   font-size: 15px;
@@ -61,7 +64,15 @@
   border-style: groove;
   width: 20px;
   background-color: lightgrey;
+  padding-right: 20px;
+  padding-left: 20px;
 }
+
+/*cor de fundo do lapis de cima */
+.lapis{
+  background-color: skyblue;
+}
+
 
 /*imagens svg da parte de baixo */
 .icones_abaixo{
@@ -80,4 +91,9 @@
   padding-left: 10px;
   padding-right: 10px;
   background-color: lightgrey;
+}
+
+.coracao{
+  fill: red;
+
 }
